@@ -9,14 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="assets/css/index.css" rel="stylesheet">
-    <link href="assets/css/login.css" rel="stylesheet">
+    <link href="assets/css/auth.css" rel="stylesheet">
     <style>
     </style>
 </head>
 
 <body>
     <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh; padding: 20px;">
-        <div class="login-box m-3">
+        <div class="auth-box m-3">
             <a href="index.php" style="color: black;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5"/>
 </svg></a>
@@ -80,11 +80,6 @@
                                 Forgot your HAC credentials?
                             </a>
                         </div>
-
-                        <!-- Signup Redirect -->
-                        <div class="mt-4 text-center">
-                            <small>Don't have an account? <a href="signup.php">Sign up here</a></small>
-                        </div>
                     </form>
                 </div>
 
@@ -120,7 +115,7 @@
 
                         <!-- Signup Redirect -->
                         <div class="mt-4 text-center">
-                            <small>Don't have an account? <a href="signup.php">Sign up here</a></small>
+                            <small>Don't have an account? <a href="signup.php" style="color:var(--accent);">Sign up here</a></small>
                         </div>
                     </form>
                 </div>

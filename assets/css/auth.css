@@ -1,4 +1,4 @@
-.login-box {
+.auth-box {
     width: 100%;
     max-width: 500px;
     margin: 5rem auto;
@@ -9,76 +9,71 @@
     border: 1px solid var(--border);
 }
 
-h3 {
+.auth-box h3 {
     color: var(--text);
 }
 
-.nav-tabs .nav-link {
+.auth-box .nav-tabs .nav-link {
     color: var(--text-muted);
     border: none;
     border-bottom: 3px solid transparent;
 }
 
-.nav-tabs .nav-link.active {
+.auth-box .nav-tabs .nav-link.active {
     border-bottom: 3px solid var(--accent);
     font-weight: 600;
     color: var(--primary);
     background: none;
 }
 
-.form-label {
+.auth-box .form-label {
     color: var(--text);
 }
 
-.form-control,
+.auth-box .form-control,
 .form-select {
     border-color: var(--border);
     background-color: #fffaf3;
     color: var(--text);
 }
 
-.form-control:focus,
+.auth-box .form-control:focus,
 .form-select:focus {
     border-color: var(--accent);
     box-shadow: 0 0 0 0.2rem rgba(229, 143, 101, 0.2);
 }
 
-.btn-primary {
+.auth-box .btn-primary {
     background-color: var(--primary);
     color: var(--secondary);
     border: none;
 }
 
-.btn-primary:hover {
+.auth-box .btn-primary:hover {
     background-color: #142600;
 }
 
-.btn-outline-dark {
+.auth-box .btn-outline-dark {
     border-color: var(--text-muted);
     color: var(--text-muted);
 }
 
-.btn-outline-dark:hover {
+.auth-box .btn-outline-dark:hover {
     background-color: var(--secondary);
     color: var(--primary);
     border-color: var(--secondary);
 }
 
-.text-muted {
+.auth-box .text-muted {
     color: var(--text-muted) !important;
 }
 
-a {
-    color: var(--accent);
-    text-decoration: none;
-}
-
-a:hover {
+.auth-box a:hover {
     color: var(--primary);
     text-decoration: underline;
 }
 
-.tooltip-inner {
+.auth-box .tooltip-inner {
     background-color: var(--primary);
     color: var(--secondary);
     border-radius: 5px;
@@ -86,6 +81,6 @@ a:hover {
     padding: 0.5rem;
 }
 
-.tooltip.bs-tooltip-top .tooltip-arrow::before {
+.auth-box .tooltip.bs-tooltip-top .tooltip-arrow::before {
     border-top-color: var(--primary);
 }

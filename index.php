@@ -31,7 +31,7 @@
   <div class="container text-center">
     <h1 class="display-4 fw-bold">Healthy School Lunches Simplified</h1>
     <p class="lead mt-3">Nomio helps schools and students plan, order, and manage nutritious meals—all in one platform.</p>
-    <a href="#" class="btn cta-btn btn-lg mt-4">Get Started – It's Free</a>
+    <a href="signup.php" class="btn cta-btn btn-lg mt-4">Get Started – It's Free</a>
   </div>
 </section>
 
