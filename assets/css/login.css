@@ -1,0 +1,91 @@
+.login-box {
+    width: 100%;
+    max-width: 500px;
+    margin: 5rem auto;
+    background: white;
+    border-radius: 10px;
+    padding: 3.25rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+    border: 1px solid var(--border);
+}
+
+h3 {
+    color: var(--text);
+}
+
+.nav-tabs .nav-link {
+    color: var(--text-muted);
+    border: none;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: 3px solid var(--accent);
+    font-weight: 600;
+    color: var(--primary);
+    background: none;
+}
+
+.form-label {
+    color: var(--text);
+}
+
+.form-control,
+.form-select {
+    border-color: var(--border);
+    background-color: #fffaf3;
+    color: var(--text);
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 0.2rem rgba(229, 143, 101, 0.2);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #142600;
+}
+
+.btn-outline-dark {
+    border-color: var(--text-muted);
+    color: var(--text-muted);
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-color: var(--secondary);
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.tooltip-inner {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 5px;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: var(--primary);
+}

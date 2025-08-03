@@ -1,0 +1,51 @@
+:root {
+    --bg: #fdf9f2;
+    --primary: #1a3300;
+    --secondary: #fcec5b;
+    --accent: #e58f65;
+    --text: #4a3f35;
+    --text-muted: #7c6f65;
+    --border: #ddd1c1;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--primary);
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 300;
+    background: none;
+    color: var(--primary);
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--primary);
+    color: var(--secondary);
+
+}
+
+.hero {
+    height: 80vh;
+    background: var(--bg);
+}
+
+.hero .cta-btn {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
