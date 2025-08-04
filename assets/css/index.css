@@ -13,27 +13,23 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-a {
-    color: var(--accent);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--primary);
-}
-
 h1 {
     color: var(--primary);
 }
 
-.btn{
+a{   
+    color: var(--accent);
+}
+
+.nav-link{
+    border-radius: 0;
+    border-bottom: 2px solid transparent;
     transition: all 0.3s ease;
 }
 
-.btn:hover {
-    background-color: var(--primary);
-    color: var(--secondary);
-
+.nav-link:hover {
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
 }
 
 .hero {

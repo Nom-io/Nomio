@@ -16,7 +16,7 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh; padding: 20px;">
         <div class="auth-box m-3">
             <!-- Back link -->
-            <a href="index.php" style="color: black;">
+            <a href="plans.php" style="color: black;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-arrow-return-left" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
@@ -74,7 +74,7 @@
 
                 <!-- Redirect to student login -->
                 <div class="mt-4 text-center">
-                    <small>Are you a student? Have an account?<a href="login.php" style="color:var(--accent);"> Log in here</a></small>
+                    <small>Have an account already?<a href="login.php" style="color:var(--accent);"> Log in here</a></small>
                 </div>
             </form>
         </div>
