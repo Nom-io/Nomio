@@ -13,7 +13,7 @@
 
 <body>
 
-    <!-- NAVBAR arya final -->
+    <!-- NAVBAR arya final boss-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div class="container">
             <div class="d-flex logo align-content-center">
