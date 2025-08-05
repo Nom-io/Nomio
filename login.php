@@ -52,9 +52,9 @@
                             <label for="district" class="form-label">Select Your School District</label>
                             <select class="form-select" name="district" id="district" required>
                                 <option value="">Choose...</option>
-                                <option value="district1">North Valley ISD</option>
-                                <option value="district2">Lakeside School District</option>
-                                <option value="district3">Greenridge Unified</option>
+                                <option value="district1">RoundRock ISD</option>                              
+                                <option value="district2">Leaner ISD</option>
+                                <option value="district3">Austin ISD</option>
                             </select>
                         </div>
 
