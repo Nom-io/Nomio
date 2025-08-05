@@ -61,12 +61,12 @@
                 </div>
 
                 <!-- Create Account Button -->
-                <button type="submit" class="btn btn-primary w-100">Create Account</button>
+                <button type="submit" class="btn-primary w-100">Create Account</button>
 
                 <!-- Google Sign Up -->
                 <div class="text-center mt-3">
                     <p class="text-muted">or</p>
-                    <a href="google-signup-handler.php" class="btn btn-outline-dark w-100">
+                    <a href="google-signup-handler.php" class="btn-outline-dark w-100">
                         <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google logo" width="20" class="me-2">
                         Sign up with Google
                     </a>

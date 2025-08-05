@@ -17,14 +17,14 @@
 <body>
     <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh; padding: 20px;">
         <div class="auth-box m-3">
-            <a href="index.php" style="color: black;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5"/>
-</svg></a>
-            <div class="container-fluid d-flex justify-content-center me-2">
-                <div class="d-flex">
-                    <img src="assets/images/icon.png" class="mb-1" style="height: 40px" alt="title icon">
-                    <h3 class="mb-4 ms-2 text-center">Login to Nomio</h3>
-                </div>
+            <a href="index.php" style="color: black;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5" />
+                </svg></a>
+            <div class="container-fluid d-flex justify-content-center me-2 mb-4">
+                <img src="assets/images/icon.png" style="height: 40px" alt="title icon">
+                <h3 class="ms-2 mt-1 text-center">Login to Nomio</h3>
             </div>
 
             <!-- Tabs for role selection -->
@@ -52,7 +52,7 @@
                             <label for="district" class="form-label">Select Your School District</label>
                             <select class="form-select" name="district" id="district" required>
                                 <option value="">Choose...</option>
-                                <option value="district1">RoundRock ISD</option>                              
+                                <option value="district1">RoundRock ISD</option>
                                 <option value="district2">Leaner ISD</option>
                                 <option value="district3">Austin ISD</option>
                             </select>
@@ -71,7 +71,7 @@
                         </div>
 
                         <!-- Login Button -->
-                        <button type="submit" class="btn btn-primary w-100">Log in with your HAC</button>
+                        <button type="submit" class="primary-btn btn w-100">Log in with your HAC</button>
 
                         <!-- Forgot HAC Credentials -->
                         <div class="text-center mt-3">
@@ -101,7 +101,7 @@
                         </div>
 
                         <!-- Submit -->
-                        <button type="submit" class="btn btn-primary w-100">Log in</button>
+                        <button type="submit" class="primary-btn btn w-100">Log in</button>
 
                         <!-- Google Login -->
                         <div class="text-center mt-3">
@@ -115,7 +115,8 @@
 
                         <!-- Signup Redirect -->
                         <div class="mt-4 text-center">
-                            <small>Don't have an account? <a href="signup.php" style="color:var(--accent);">Sign up here</a></small>
+                            <small>Don't have an account? <a href="plans.php" style="color:var(--accent);">Sign up
+                                    here</a></small>
                         </div>
                     </form>
                 </div>
