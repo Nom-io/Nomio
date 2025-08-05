@@ -15,7 +15,6 @@
 <body>
     <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh; padding: 20px;">
         <div class="auth-box m-3">
-            <!-- Back link -->
             <a href="plans.php" style="color: black;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-arrow-return-left" viewBox="0 0 16 16">
@@ -36,31 +35,26 @@
             <form action="handlers/signup-handler.php" method="POST">
                 <input type="hidden" name="user_type" value="admin">
 
-                <!-- Full Name -->
                 <div class="mb-3">
                     <label for="name" class="form-label">Full Name</label>
                     <input type="text" class="form-control" id="name" name="name" required>
                 </div>
 
-                <!-- Email -->
                 <div class="mb-3">
                     <label for="email" class="form-label">Email Address</label>
                     <input type="email" class="form-control" id="email" name="email" required>
                 </div>
 
-                <!-- Password -->
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
                     <input type="password" class="form-control" id="password" name="password" required>
                 </div>
 
-                <!-- Confirm Password -->
                 <div class="mb-3">
                     <label for="confirm_password" class="form-label">Confirm Password</label>
                     <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
                 </div>
 
-                <!-- Create Account Button -->
                 <button type="submit" class="btn-primary w-100">Create Account</button>
 
                 <!-- Google Sign Up -->
@@ -72,7 +66,6 @@
                     </a>
                 </div>
 
-                <!-- Redirect to student login -->
                 <div class="mt-4 text-center">
                     <small>Have an account already?<a href="login.php" style="color:var(--accent);"> Log in here</a></small>
                 </div>

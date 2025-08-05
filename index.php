@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <!-- NAVBAR !-->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div class="container">
             <div class="d-flex logo align-content-center">
@@ -29,7 +29,7 @@
             </div>
         </div>
     </nav>
-    <!-- HERO -->
+    <!-- Hero -->
     <section class="hero d-flex align-items-center">
         <div class="container text-center">
             <h1 class="display-4 fw-bold">Smarter Attendance, Better Schools.</h1>
@@ -38,7 +38,7 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         © 2025 Nomio. All rights reserved.
     </footer>
