@@ -43,16 +43,6 @@
     box-shadow: 0 0 0 0.2rem rgba(229, 143, 101, 0.2);
 }
 
-.auth-box .btn-primary {
-    background-color: var(--primary);
-    color: var(--secondary);
-    border: none;
-}
-
-.auth-box .btn-primary:hover {
-    background-color: #142600;
-}
-
 .auth-box .btn-outline-dark {
     border-color: var(--text-muted);
     color: var(--text-muted);

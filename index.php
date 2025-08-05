@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nomio – School Lunch Solution</title>
+    <title>Nomio – A School Attendence Solution</title>
     <link rel="icon" href="assets/images/icon.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -13,12 +13,12 @@
 
 <body>
 
-    <!-- NAVBAR tige final boss -->
+    <!-- NAVBAR !-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div class="container">
             <div class="d-flex logo align-content-center">
-                <a href="index.php"><img src="assets/images/icon.png" style="height: 45px;" alt="Logo Icon"></a>
-                <a class="navbar-brand fw-bold mt-1" href="index.php">Nomio</a>
+                <a href="index.php" class="mt-2"><img src="assets/images/icon.png" style="height: 30px;" alt="Logo Icon"></a>
+                <a class="navbar-brand fw-bold mt-1 ms-1" href="index.php">Nomio</a>
             </div>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><span
                     class="navbar-toggler-icon"></span></button>
@@ -33,10 +33,9 @@
     <!-- HERO -->
     <section class="hero d-flex align-items-center">
         <div class="container text-center">
-            <h1 class="display-4 fw-bold">Healthy School Lunches Simplified</h1>
-            <p class="lead mt-3">Nomio helps schools and students plan, order, and manage nutritious meals—all in one
-                platform.</p>
-            <a href="plans.php" class="btn cta-btn btn-lg mt-4">Get Started – It's Free</a>
+            <h1 class="display-4 fw-bold">Smarter Attendance, Better Schools.</h1>
+            <p class="lead mt-3">Nomio simplifies attendance for schools and students—accurate, fast, and all in one place.</p>
+            <a href="plans.php" class="btn primary-btn btn-lg mt-4">Get Started – It's Free</a>
         </div>
     </section>
 
