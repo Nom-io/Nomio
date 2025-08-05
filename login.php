@@ -27,7 +27,7 @@
                 <h3 class="ms-2 mt-1 text-center">Login to Nomio</h3>
             </div>
 
-            <!-- Tabs for role selection -->
+            <!-- Selection tabs -->
             <ul class="nav nav-tabs justify-content-center" id="roleTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="student-tab" data-bs-toggle="tab" data-bs-target="#student"
@@ -47,7 +47,6 @@
                     <form action="login-handler.php" method="POST">
                         <input type="hidden" name="user_type" value="student">
 
-                        <!-- School District Dropdown -->
                         <div class="mb-3 mt-3">
                             <label for="district" class="form-label">Select Your School District</label>
                             <select class="form-select" name="district" id="district" required>
@@ -58,22 +57,18 @@
                             </select>
                         </div>
 
-                        <!-- HAC Email -->
                         <div class="mb-3">
                             <label for="studentEmail" class="form-label">HAC Email</label>
                             <input type="email" class="form-control" id="studentEmail" name="email" required>
                         </div>
 
-                        <!-- Password -->
                         <div class="mb-3">
                             <label for="studentPassword" class="form-label">HAC Password</label>
                             <input type="password" class="form-control" id="studentPassword" name="password" required>
                         </div>
 
-                        <!-- Login Button -->
                         <button type="submit" class="primary-btn btn w-100">Log in with your HAC</button>
 
-                        <!-- Forgot HAC Credentials -->
                         <div class="text-center mt-3">
                             <a href="#" data-bs-toggle="tooltip"
                                 title="Visit your district’s HAC website. Contact your school administrator if you’re unable to log in.">
@@ -88,19 +83,16 @@
                     <form action="login-handler.php" method="POST">
                         <input type="hidden" name="user_type" value="admin">
 
-                        <!-- Email -->
                         <div class="mb-3 mt-3">
                             <label for="adminEmail" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="adminEmail" name="email" required>
                         </div>
 
-                        <!-- Password -->
                         <div class="mb-3">
                             <label for="adminPassword" class="form-label">Password</label>
                             <input type="password" class="form-control" id="adminPassword" name="password" required>
                         </div>
 
-                        <!-- Submit -->
                         <button type="submit" class="primary-btn btn w-100">Log in</button>
 
                         <!-- Google Login -->
@@ -113,7 +105,6 @@
                             </a>
                         </div>
 
-                        <!-- Signup Redirect -->
                         <div class="mt-4 text-center">
                             <small>Don't have an account? <a href="plans.php" style="color:var(--accent);">Sign up
                                     here</a></small>
