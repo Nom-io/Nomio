@@ -32,7 +32,7 @@
     <!-- Hero -->
     <section class="hero d-flex align-items-center">
         <div class="container text-center">
-            <h1 class="display-4 fw-bold">Smarter Attendance, Better Schools.</h1>
+            <h1 class="display-4 fw-bold">Smarter Attendance, Better Classes.</h1>
             <p class="lead mt-3">Nomio simplifies attendance for schools and students—accurate, fast, and all in one place.</p>
             <a href="plans.php" class="btn primary-btn btn-lg mt-4">Get Started – It's Free</a>
         </div>
