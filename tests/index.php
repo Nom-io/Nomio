@@ -7,7 +7,7 @@
     <title>Nomio – Smart Attendance, Simplified</title>
     <link rel="icon" href="assets/images/icon.png" type="image/png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
-    <link href="assets/css/index.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
